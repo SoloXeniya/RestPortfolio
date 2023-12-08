@@ -1,0 +1,9 @@
+FROM postgres:latest
+
+ENV POSTGRES_DB=rest_p_db
+ENV POSTGRES_USER=xeniya
+ENV POSTGRES_PASSWORD=123
+
+VOLUME /var/lib/postgresql/data
+
+# infallible_cray
